@@ -54,22 +54,32 @@ certificates and bank passwords from the Android devices.
 	android.permission.ACCESS_WIFI_STATE
 	android.permission.READ_PHONE_STATE
 	android.permission.MOUNT_FORMAT_FILESYSTEMS
-## Sources: 14
+## Sources: 18
+	<java.io.File: boolean delete()>: 2
 	<dalvik.system.DexFile: java.lang.Class loadClass(java.lang.String,java.lang.ClassLoader)>: 1
 	<android.content.res.Resources: android.util.DisplayMetrics getDisplayMetrics()>: 2
 	<java.lang.Package: java.lang.String getName()>: 1
 	<javax.crypto.Cipher: byte[] doFinal(byte[])>: 1
 	<java.lang.Class: java.lang.Package getPackage()>: 1
 	<java.lang.Class: java.lang.reflect.Field getDeclaredField(java.lang.String)>: 4
+	<java.io.File: void <init>: 3
 	<java.lang.Class: java.lang.reflect.Method getDeclaredMethod(java.lang.String,java.lang.Class[])>: 1
 	<java.lang.String: byte[] getBytes()>: 2
+	<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>: 1
 	<java.lang.Integer: int parseInt(java.lang.String,int)>: 1
 	<java.lang.reflect.Field: java.lang.Object get(java.lang.Object)>: 2
 	<java.lang.Class: java.lang.reflect.Constructor getConstructor(java.lang.Class[])>: 1
+	<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>: 4
 	<android.content.res.Resources: android.content.res.Configuration getConfiguration()>: 2
 	<javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>: 1
 	<java.lang.Class: java.lang.reflect.Method getMethod(java.lang.String,java.lang.Class[])>: 3
-## Sinks: 3
+## Sinks: 9
+	<java.io.File: boolean delete()>: 2
+	<java.lang.ProcessBuilder: java.lang.Process start()>: 1
 	<java.lang.Integer: int parseInt(java.lang.String,int)>: 1
+	<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>: 4
 	<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>: 1
+	<java.io.FileOutputStream: void <init>: 1
+	<java.io.FileOutputStream: void write(byte[])>: 1
+	<java.lang.Class: java.lang.Class forName(java.lang.String)>: 9
 	<java.lang.reflect.Field: void set(java.lang.Object,java.lang.Object)>: 2
