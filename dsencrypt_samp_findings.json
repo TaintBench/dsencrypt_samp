@@ -59,7 +59,8 @@
         "reflection": true
       },
       "ID": 1,
-      "description": "This malicious flow reads an encrypted zip file from asset folder, decrypts it and extracts class.dex which contains malicious code. The malicious code is called via reflection."
+      "description": "This malicious flow reads an encrypted zip file from asset folder, decrypts it and extracts class.dex which contains malicious code. The malicious code is called via reflection.",
+      "isNegative": false
     }
   ]
 }
